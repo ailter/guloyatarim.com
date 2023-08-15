@@ -1,0 +1,55 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label>Ad Soyad</label>
+                <input type="text" class="form-control" [(ngModel)]="name" />
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label>E-Mail Adresi</label>
+                <input type="text" class="form-control" [(ngModel)]="email" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group">
+                <label>Mesajınız</label>
+                <textarea class="form-control" [(ngModel)]="content"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="btn btn-primary float-end" (click)="sendMessage()">Gönder</button>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-12">
+            <p>
+                <i class="app-icon fas fa-location-dot"></i>&nbsp;
+                Hocaalizade Mh. 7. Hamam Sk. No: 1/401 Osmangazi/Bursa
+            </p>
+            <p>
+                <i class="app-icon fas fa-envelope"></i>&nbsp;
+                <a href="mailto:bilgi@guloyatarim.com">bilgi@guloyatarim.com</a>
+            </p>
+            <p>
+                <i class="app-icon fas fa-phone"></i>&nbsp;
+                <span style="cursor: pointer;" onClick="window.open('tel:+905302909163');">+90 530 290 9163</span>
+            </p>
+            <p>
+                <i class="app-icon fa-brands fa-instagram" style="font-size: 22px !important;"></i>&nbsp;
+                <span style="cursor: pointer;" (click)="redirectToInstagram()">guloyatarimas</span>
+            </p>
+        </div>
+    </div>
+</div>

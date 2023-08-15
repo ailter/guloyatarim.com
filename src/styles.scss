@@ -1,0 +1,17 @@
+@import './variables';
+body, html {
+    font-family: 'PoppinsRegular' !important;
+}
+
+.app-icon {
+    color: $primary-color;
+}
+
+.btn-primary {
+    background-color: $primary-color !important;
+    border: $primary-color !important;
+}
+
+textarea {
+    resize: none !important;
+}

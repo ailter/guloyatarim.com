@@ -1,0 +1,39 @@
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <a routerLink="/">
+      <div class="shrink-remove">
+        <img src="../../assets/images/logotr.png"/>
+      </div>
+    </a>
+    <button class="hamburger btn" (click)="toggleSidebar()">
+      <i class="app-icon fas fa-bars"></i>
+    </button>
+
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a routerLink="/about-us">
+        <div class="item">
+          <i class="app-icon fas fa-clipboard-question" data-toggle="tooltip" title="Hakkımızda"></i>
+          <span class="label shrink-remove">Hakkımızda</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/products">
+        <div class="item">
+          <i class="app-icon fas fa-list" data-toggle="tooltip" title="Ürünlerimiz"></i>
+          <span class="label shrink-remove">Ürünlerimiz</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/contact-us">
+        <div class="item">
+          <i class="app-icon fas fa-address-book" data-toggle="tooltip" title="İletişim"></i>
+          <span class="label shrink-remove">İletişim</span>
+        </div>
+      </a>
+    </li>
+  </ul>
+</nav>

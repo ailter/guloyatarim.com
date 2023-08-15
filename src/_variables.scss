@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+$primary-color: #B7A836;
+$secondary-color: #eeee;
+$warning: #ffc107;
+$alert: #dc3545;
+$info: #17a2b8;
